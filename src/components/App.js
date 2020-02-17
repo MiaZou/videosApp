@@ -9,9 +9,11 @@ class App extends React.Component {
 
   componentDidMount() {
     this.onTermSubmit('buildings');
+
   }
 
   onTermSubmit = async term => {
+
 
     const response = await youtube.get('/search', {
       params: {
