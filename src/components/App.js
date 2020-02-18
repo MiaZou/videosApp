@@ -14,9 +14,14 @@ class App extends React.Component {
 
   onTermSubmit = async term => {
 
+    const KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+
+    console.log(KEY);
+
     const response = await youtube.get('/search', {
       params: {
-        q: term
+        q: term,
+        key: KEY
       }
     });
 
