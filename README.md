@@ -1,26 +1,40 @@
-# videosReactApp
-
-VideosApp
-
-Heroku Link: http://videos-react-app.herokuapp.com/
+# Nomster
 
 A youtube similar browser application which allows users to type the search terms on the input box, view the list of results, and click to play in the embedded player. The application focused on React and CSS. It integrates axios, youtube public free API, and semantic ui css library.
 
-Getting Started
+<img src="images/videosReact.jpg">
 
-Prerequisites: Reactjs
+Heroku Link: https://videos-react-app.herokuapp.com/
 
-Installing
+## Getting Started
+### Prerequisites
 
-First, React library is required to run this application:  
-Click the website to download and install the library. (https://reactjs.org/)
+What things you need to install the software:
 
-After you have successfully installed the React library. Download this project and change to the project directory. 
-Install packages that are required for this project: 
-npm install --save axios
+* [React] 
 
-Start the react project:
-npm start
-Note: You might need to install packages such as node_modules if you are the first time starting this project. You may follow the terminal instruction to install missing packages.
 
-React should pop your web browser automatically if npm start was run successfully. Otherwise, open your web browser and search for localhost:3000 to access the project. 
+### Installation
+
+First, download and install React - https://reactjs.org/
+
+After you have successfully installed the React library. Download this project and change to the project directory.
+```sh
+$ cd videosReactApp
+```
+
+Install packages that are required for this project.
+
+```sh
+$ npm install --save node_modules axios
+```
+
+Start the project
+
+```sh
+$ npm start
+```
+
+Note: You might interact with errors for missing packages if this is the first time starting this project. Follow the terminal error instruction to install other neccessary packages. 
+
+React should automatically pop the web browser open with the project running on localhost:3000. If not, simply open your browser and search localhost:3000 to access this project. 
