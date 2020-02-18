@@ -1,4 +1,4 @@
-# Nomster
+# videosApp
 
 A youtube similar browser application which allows users to type the search terms on the input box, view the list of results, and click to play in the embedded player. The application focused on React and CSS. It integrates axios, youtube public free API, and semantic ui css library.
 
