@@ -1,15 +1,14 @@
 import React from 'react';
 import SearchBar from './SearchBar';
-import youtube from '../apis/youtube';
-import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
+import VideoList from './VideoList';
+import youtube from '../apis/youtube';
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
     this.onTermSubmit('buildings');
-
   }
 
   onTermSubmit = async term => {
